@@ -9,3 +9,24 @@ data_large/
 reports/
 final_state.csv
 .pytest_cache/
+# Private key
+.hmac_key
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated data and reports
+/data/
+/reports/
+
+# SQLite databases and sidecar files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Personal scratch notes
+/Xyz.md
+/filesCreatedbyme.md
+/rules.md
